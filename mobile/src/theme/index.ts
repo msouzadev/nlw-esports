@@ -6,7 +6,7 @@ interface FontFamily {
   bold: string;
   black: string;
 }
-interface FontSize {
+export interface FontSize {
   sm: number;
   md: number;
   lg: number;

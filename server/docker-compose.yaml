@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  esports_api:
+    build: .
+    volumes:
+      - .:/go/src/
+    ports:
+      - "8030:8030"
